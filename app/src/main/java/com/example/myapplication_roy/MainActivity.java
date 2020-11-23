@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 
+
 	//[[メニューバー]] p280
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
