@@ -22,6 +22,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="btnClose_onclick"
         android:text="CLOSE"
+        android:textSize="18sp"
         app:backgroundTint="#141313"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

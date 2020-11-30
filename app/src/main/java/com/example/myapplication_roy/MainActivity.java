@@ -10,12 +10,19 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.google.android.youtube.player.YouTubeStandalonePlayer;
+
 public class MainActivity extends AppCompatActivity {
+
+	private static final String API_KEY = "AIzaSyC3l0Lg5WF0wrvkm6aHzy2GZEkGPn03zf0";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		Intent intent = YouTubeStandalonePlayer.createVideoIntent(this, API_KEY,"ndAyMMOqWts" );
+		startActivity(intent);
 
 		Log.i("log", "onCreate");
 	}
